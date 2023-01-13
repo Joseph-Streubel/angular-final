@@ -1,0 +1,56 @@
+<div class="sort">
+    <button (click)="toolSortName()">Sort by Name</button> | 
+    <button (click)="toolSortPrice()">Price Low to High</button> | 
+    <button (click)="toolSortPriceDesc()">Price High to Low</button>
+</div>
+
+<h1>All Products</h1>
+<div class="whole">
+    <p class="items" *ngFor="let tools of toolList">
+        <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>{{tools.name}} - ${{tools.price}}</mat-card-title>
+              <mat-card-subtitle>{{tools.motor}}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src={{tools.img}} alt="Photo of tool">
+            <mat-card-content>
+             
+            </mat-card-content>
+            <mat-card-actions>
+                <button class="view" [routerLink]='["/details", tools.id]'> View </button> |
+                <button class="edit" [routerLink]='["/edit", tools.id]'> Edit </button> | 
+                <button class="delete" (click)="onDelete(tools.id)"> Delete </button>
+            </mat-card-actions>
+          </mat-card>
+        </p>
+</div>
+<app-navigation-page></app-navigation-page>
+
+
+
+
+
+
+
+<!-- <div class="whole">
+        
+    <p class="items" *ngFor="let tools of toolList">
+        <a>
+            <div class = "text">
+            <div *ngIf="tools.img" class="img">
+                <img [src]="tools.img">
+            </div>
+            <br>
+            {{tools.name}} - ${{tools.price}}
+            <br>
+            <br>
+
+
+            <button class="view" [routerLink]='["/details", tools.id]'> View </button> |
+            <button class="edit" [routerLink]='["/edit", tools.id]'> Edit </button> | 
+            <button class="delete" (click)="onDelete(tools.id)"> Delete </button>
+        </div>
+        </a>
+    </p>
+</div> -->

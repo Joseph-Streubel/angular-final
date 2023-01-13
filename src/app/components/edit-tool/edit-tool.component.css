@@ -1,0 +1,11 @@
+.whole {
+    padding-left: 200px;
+    background-color: rgb(170, 244, 170);
+}
+
+.input {
+    padding: 5px;
+}
+button {
+    margin: 10px;
+}

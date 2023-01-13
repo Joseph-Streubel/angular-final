@@ -1,0 +1,28 @@
+<div class="whole">
+    <h1>Create New Item</h1>
+    <form #form="ngForm" (ngSubmit)="onSubmit()">
+        <div class="input">
+            <label> Name </label>
+            <input class="user" type="text" name="name" [(ngModel)]="newTool.name">
+        </div>
+        <div class="input">
+            <label> Description </label>
+            <input class="user" type="text" name="description" [(ngModel)]="newTool.description">
+        </div>
+        <div class="input">
+            <label> Price </label>
+            <input class="user" type="text" name="price" [(ngModel)]="newTool.price">
+        </div>
+        <div class="input">
+            <label> Image Link </label>
+            <input class="user" type="text" name="img" [(ngModel)]="newTool.img">
+        </div>
+        <div class="input">
+            <label> Power of Motor </label>
+            <input class="user" type="text" name="motor" [(ngModel)]="newTool.motor"> Horsepower
+        </div>
+        <button type="submit">CREATE</button>
+    </form>
+</div>
+
+<app-navigation-page></app-navigation-page>

@@ -1,0 +1,18 @@
+
+<div class="whole">
+        <p class="items" *ngFor="let tools of toolList; let i = index">
+            <a *ngIf="i<3">
+                {{tools.name}}
+                <br><br>
+                <div *ngIf="tools.img" class="img">
+                    <img [src]="tools.img">
+                </div>
+                <br>
+                ${{tools.price}}
+                <br><br>
+                <button [routerLink]='["/details", tools.id]'> More Details </button>
+            </a>
+        </p>
+</div>
+
+<app-navigation-page></app-navigation-page>

@@ -1,0 +1,44 @@
+{
+  "tools": [
+    {
+      "id": 1,
+      "name": "Grizzly Table Saw",
+      "img": "assets/images/G1023RL_tableSaw.jpg",
+      "price": "3000",
+      "motor": "3 HP",
+      "description": "The G1023RL 10\" 240V Cabinet Table Saw has been improved, refined, and optimized into this finished product.  The powerful 3 HP motor rotates the arbor at 4200 RPM. This equates to the 10\" x 40T having a rim speed of 11,000 FPM!"
+    },
+    {
+      "id": 2,
+      "name": "Grizzly Band Saw",
+      "img": "assets/images/G0513A40_Bandsaw.jpg",
+      "price": 1295,
+      "motor": "2 HP",
+      "description": "G0513A40 40th Anniversary 17\" 2 HP Bandsaw The newest addition to the lineup of production-ready Grizzly 17\" bandsaws. The limited edition 40th Anniversary G0513A40 17\" 2 HP Bandsaw offers an eye-catching black on green color scheme and custom features."
+    },
+    {
+      "id": 3,
+      "name": "Grizzly Jointer",
+      "img": "assets/images/G0452Z_jointer.jpg",
+      "price": 1195,
+      "motor": "1.5 HP",
+      "description": "G0452Z 6\" x 46\" Jointer with Spiral Cutterhead A quality 6\" spiral cutterhead jointer at a price that can't be beat! This top-of-the line G0452Z 6\" x 46\" Jointer has everything you need for a home shop or production facility."
+    },
+    {
+      "id": 4,
+      "name": "JET Drum Sander",
+      "img": "assets/images/JET_Drum Sander.jpg",
+      "price": "1499.99",
+      "motor": "1.5",
+      "description": "Sand panels up to 32'' wide in just two easy passes with the Jet 16-32 Drum Sander. One pass will sand a panel up to 16'' wide. Simple tool-free knobs let you adjust the drum parallel to the table to eliminate crowning and unsightly lines in the middle of panels over 16'' wide. Variable-speed dial lets you choose the optimal feed rate for a wide range of projects and wood species. Sandsmart technology continuously monitors the load on the drum motor and adjusts the feed rate to prevent overload. The mirrored design of the dust hood optimizes dust flow. Try the Jet Drum Sander today to achieve effortless, professional-quality surfaces."
+    },
+    {
+      "id": 5,
+      "name": "Grizzly Planer",
+      "img": "assets/images/G1033Z_Planer.jpg",
+      "price": "2695",
+      "motor": "5",
+      "description": "G1033Z 20\" 5 HP Planer Get a clean, flat workpiece with the right machine, with power to spare. For more than 30 years we have offered the G1033 lineup complete with the features and trouble-free operation required for high quality workpieces. The G1033Z features a 20” planing capacity and 4 high-speed steel knives on the 3-1/4” cutterhead."
+    }
+  ]
+}

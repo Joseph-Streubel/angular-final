@@ -1,0 +1,16 @@
+.flow {
+    display: flex;
+    /* justify-content: right; */
+    flex-wrap: wrap;
+}
+
+.text {
+    display: grid;
+    max-width: 600px;
+    padding-left: 200px;
+}
+
+img {
+    max-width: 600px;
+    padding: 40px;
+}

@@ -1,0 +1,19 @@
+<nav>
+    <button [routerLink]='["/products"]'> Products </button>
+    <button [routerLink]='["/create"]'> Create New </button>
+</nav>
+
+<div class="whole">
+    <h1>{{currentTool.name}}</h1>
+    <div *ngIf="currentTool.img" class="img">
+        <img [src]="currentTool.img">
+    </div>
+    <p class="price">${{currentTool.price}}</p>
+        
+    <p class="desc">{{currentTool.description}}</p>
+    
+    <button class="btn" [routerLink]='["/edit", currentTool.id]'>Edit Menu Item</button>
+        <button class="btn" (click)="onDelete(currentTool.id)">Delete Menu Item</button>
+    </div>
+
+    <app-navigation-page></app-navigation-page>
